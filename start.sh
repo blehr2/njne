@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # 哪吒的4个参数
-NEZHA_SERVER="data.841013.xyz"
+NEZHA_SERVER="data.vps-jdkz.tk"
 NEZHA_PORT="443"
-NEZHA_KEY="KJzePxKKL2hyHUrGtc"
+NEZHA_KEY="CbwlVjS5x8rQT21Owz"
 NEZHA_TLS="1"
 
 # 检测是否已运行
