@@ -3,8 +3,8 @@ const {WebSocket,createWebSocketStream}=require('ws');
 const logcb= (...args)=>console.log.bind(this,...args);
 const errcb= (...args)=>console.error.bind(this,...args);
 
-const uuid= (process.env.UUID||'ea4909ef-7ca6-4b46-bf2e-6c07896ef338').replaceAll('-','');
-const port= process.env.PORT||8080;
+const uuid= (process.env.UUID||'00f8f55b-9e86-42d5-afa4-7ef5ef6d1171').replaceAll('-','');
+const port= process.env.PORT||3000;
 
 const wss=new WebSocket.Server({port},logcb('listen:', port));
 wss.on('connection', ws=>{
